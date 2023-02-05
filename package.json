@@ -8,7 +8,7 @@
     "build": "npm install",
     "jasmine": "jasmine",
     "test": "npm run build && npm run jasmine",
-    "start": "nnode src/app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
