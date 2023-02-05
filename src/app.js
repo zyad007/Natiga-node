@@ -125,6 +125,6 @@ app.get('/a7a', function (req, res) {
 app.get('/wtf', function (req, res) {
     res.send('a7a');
 });
-app.listen(5555, function () {
+app.listen(process.env.PORT, function () {
     console.log("starting app on: ".concat(address));
 });
